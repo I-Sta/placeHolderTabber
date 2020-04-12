@@ -61,17 +61,47 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		3A0CBACC243D24A500C52E2B /* Extensions */ = {
+		3A1CF4B3243FF696009391C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A2296C5243BA824001533D8 /* placeHolder.swift */,
+				3A0CBAEF243E543900C52E2B /* ImageDetail.swift */,
+				3A2296CA243CAC2D001533D8 /* JSONTableViewCell.swift */,
+				3A2296B5243B9D5F001533D8 /* Main.storyboard */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A1CF4B4243FF74C009391C7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A2296B3243B9D5F001533D8 /* GreatCollectionView.swift */,
+				3A2296B1243B9D5F001533D8 /* ListViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3A1CF4B5243FF760009391C7 /* View Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Extensions;
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		3A1CF4B6243FF7A1009391C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		3A2296A1243B9D5F001533D8 = {
 			isa = PBXGroup;
 			children = (
-				3A0CBACC243D24A500C52E2B /* Extensions */,
+				3A1CF4B6243FF7A1009391C7 /* View */,
+				3A1CF4B5243FF760009391C7 /* View Model */,
+				3A1CF4B4243FF74C009391C7 /* View Controllers */,
+				3A1CF4B3243FF696009391C7 /* Models */,
 				3A2296AC243B9D5F001533D8 /* placeHolderTabber */,
 				3A2296AB243B9D5F001533D8 /* Products */,
 				2CEE6E1963BCC01A9EF988C5 /* Pods */,
@@ -92,13 +122,7 @@
 			children = (
 				3A2296AD243B9D5F001533D8 /* AppDelegate.swift */,
 				3A2296AF243B9D5F001533D8 /* SceneDelegate.swift */,
-				3A2296C5243BA824001533D8 /* placeHolder.swift */,
-				3A0CBAEF243E543900C52E2B /* ImageDetail.swift */,
-				3A2296B1243B9D5F001533D8 /* ListViewController.swift */,
-				3A2296B3243B9D5F001533D8 /* GreatCollectionView.swift */,
-				3A2296CA243CAC2D001533D8 /* JSONTableViewCell.swift */,
 				3A0CBAF1243F45AE00C52E2B /* GreatCollectionViewCell.swift */,
-				3A2296B5243B9D5F001533D8 /* Main.storyboard */,
 				3A2296B8243B9D62001533D8 /* Assets.xcassets */,
 				3A2296BA243B9D62001533D8 /* LaunchScreen.storyboard */,
 				3A2296BD243B9D62001533D8 /* Info.plist */,

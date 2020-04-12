@@ -26,11 +26,11 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Item-->
+        <!--Collection-->
         <scene sceneID="0Hm-x3-Wsc">
             <objects>
                 <navigationController id="TsK-cd-i7h" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="square.grid.3x2.fill" catalog="system" id="xwn-9s-k9T"/>
+                    <tabBarItem key="tabBarItem" title="Collection" image="square.grid.3x2.fill" catalog="system" landscapeImage="square.grid.3x2.fill" selectedImage="square.grid.3x2.fill" id="xwn-9s-k9T"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kQ5-SZ-vIl">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -205,11 +205,11 @@
             </objects>
             <point key="canvasLocation" x="2610" y="0.0"/>
         </scene>
-        <!--Item-->
+        <!--List-->
         <scene sceneID="9c5-IC-YnB">
             <objects>
                 <navigationController id="8gA-vE-S9E" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="list.dash" catalog="system" id="vVy-TZ-vVk"/>
+                    <tabBarItem key="tabBarItem" title="List" image="list.dash" catalog="system" landscapeImage="list.dash" selectedImage="list.dash" id="vVy-TZ-vVk"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sSe-Zg-es9">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
